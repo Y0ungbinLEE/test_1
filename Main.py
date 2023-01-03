@@ -34,8 +34,8 @@ st.markdown("""             """)
 st.markdown("### 프로젝트 과정")
 st.markdown("""             """)
 st.markdown("""  
-            - ##### [EDA 및 품목 선정](링크추가)
-            - ##### [예측 모델링](google.com)
+            - ##### [EDA 및 품목 선정](EDA.py)
+            - ##### [예측 모델링](Modeling by Product.py)
 """)
 
 st.markdown("### 프로젝트 결과")
