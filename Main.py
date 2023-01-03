@@ -20,7 +20,7 @@ st.markdown("""       """)
 st.markdown("### 프로젝트 선정 배경")
 st.markdown("""             """)
 
-image = Image.open('test_1/images/main.png')
+image = Image.open('images/main.png')
 st.image(image)
 
 st.markdown("""    #### #식량 안보 #곡물 자급률 감소 #경제 침체 #외교 분쟁 #기후 변화 """)
