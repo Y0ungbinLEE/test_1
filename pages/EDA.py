@@ -51,7 +51,7 @@ tab1, tab2, tab3, tab4 = st.tabs(["🧄 마늘","🥔 감자", "🍠고구마", 
 
 with tab1:
     df_g = df[df["Product"] == "마늘"]
-    df_g["M"] = df_g['MD'].map(lambda x:int(x)[:-2])
+    df_g["M"] = df_g['MD'].map(lambda x:int(str(x)[:-2]))
     df_g["Y"] = df_g['YMD'].map(lambda x:str(x)[:4])
     data_1 = pd.DataFrame(df_g.groupby('Y')['Price'].sum())
     data_1m = pd.DataFrame(df_g.groupby('M')['Price'].sum())
