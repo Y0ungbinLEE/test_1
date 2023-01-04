@@ -96,7 +96,7 @@ with tab1:
     ➡️ 관련기사: 
     긴 장마와 강한 태풍, 혹한이 이어진 지난해 **기후 여파가 가격 상승의 1차 요인**으로 꼽힌다. 여기에 **코로나19로 인한 산지의 인력 수급 불균형이 가격 상승을 부추기는 구조적 요인**으로 지목된다. 
     출처: [https://www.hankyung.com/economy/article/2021051867001](https://www.hankyung.com/economy/article/2021051867001)
-    """)                )
+    """)                
     st.markdown("")
     st.markdown("")
     st.markdown("###### **재배 면적**의 감소로 인한 가격상승")
