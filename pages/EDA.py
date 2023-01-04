@@ -55,6 +55,8 @@ with tab1:
     df_g["Y"] = df_g['YMD'].map(lambda x:str(x)[:4])
     data_1 = pd.DataFrame(df_g.groupby('Y')['Price'].sum())
     data_1m = pd.DataFrame(df_g.groupby('M')['Price'].sum())
+    
+    st.dataframe(data_1m) 
           
     plt.figure(figsize=(20, 7))
     st.markdown("")
