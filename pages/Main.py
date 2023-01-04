@@ -45,5 +45,18 @@ st.markdown("""
 
 st.markdown("### 프로젝트 결과")
 
+
+st.sidebar.header('🚗 교통사고 원인 분석 🚗')
+st.sidebar.markdown("""
+    ### 🥕 목차
+    1. 주제선정이유
+    2. 데이터 소개
+    3. 역할
+
+    ### ☘ 홈페이지
+    github : [test](test)
+""")
+
+
 st.markdown("")
 st.markdown("---")
