@@ -12,7 +12,7 @@ from statsmodels.tsa.stattools import adfuller
 import pprint
 import koreanize_matplotlib
 import altair as alt
-
+from PIL import Image
 
 st.header(" 🌾 Agricultural Products Price Prediction")
 
