@@ -59,7 +59,7 @@ with tab1:
              
     plt.figure(figsize=(20, 7))
     st.markdown("")
-    # st.subheader("💡 파종 및 수확시기")
+
     st.markdown("#### 💡 파종 및 수확시기")
     st.markdown("- 9 ~ 10월 파종, 5 ~ 6월 수확")
     st.markdown("#### 계절별 가격 추세")
@@ -108,7 +108,7 @@ with tab2:
     data_1 = pd.DataFrame(df_p.groupby('Y')['Price'].sum())
     data_1m = pd.DataFrame(df_p.groupby('M')['Price'].sum())
 
-    st.markdown("💡 파종 및 수확시기")
+    st.markdown("#### 💡 파종 및 수확시기")
     st.markdown("- 봄감자:  2 ~ 4월 파종, 6 ~ 7월 수확")
     st.markdown("- 가을감자: 8월 파종,  11월 수확")
     st.markdown("#### 계절별 가격 추세")
@@ -119,24 +119,26 @@ with tab2:
     st.plotly_chart(gh1)
     st.markdown("#### 기후에 따른 농산물 가격")
     st.markdown("")
-    image = Image.open('pages/images/p-weather.png')
+    image = Image.open('pages/images/p_weather.png')
     st.image(image)
     st.markdown("##### 감자 가격은 자연재해를 제외하고 기온, 강수량에 영향을 크게 받지 않는다")
     st.markdown("")
-    st.markdown("#### 이동평균선 - 5년")
+    st.markdown("#### dataframe5년 가격 변화추이")
     st.markdown("")
     image = Image.open('pages/images/p-5.png')
     st.image(image)
     st.markdown("")
     st.markdown("##### ❓ 2018년에 가격이 급등한 이유?")
-    # code = '''
-    # ⇒ (2018년 기준) 올 봄 감자는 이례적인 폭등을 맞았다. 지난해 가을감자 생산이 감소하고 저장감자 물량이 부족했던데다 한파로 인해 시설봄감자 출하마저 지연된 탓이다. 
-    # 그나마 시설봄감자도 재배면적은 크게 늘었으나 단수감소로 생산량은 오히려 줄어들었다.
-    #            '''
-    st.code(code, language= 'text')
-    st.markdown("##### ")
+    st.markdown("""
+    ⇒ (2018년 기준) 올 봄 감자는 이례적인 폭등을 맞았다. 지난해 가을감자 생산이 감소하고 저장감자 물량이 부족했던데다 한파로 인해 시설봄감자 출하마저 지연된 탓이다. 
+    그나마 시설봄감자도 재배면적은 크게 늘었으나 단수감소로 생산량은 오히려 줄어들었다.
+    """)   
+    st.markdown("")
+    st.markdown("")
+    st.markdown("""
+    ### 📌 SUMMARY    
     st.markdown("생산량 (재배시기와 재배면적 등)에 영향을 받는 것으로 보인다")
-
+""")
 
 
 with tab3:
