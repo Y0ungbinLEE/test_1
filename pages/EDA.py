@@ -127,7 +127,7 @@ with tab2:
     st.markdown("")
     image = Image.open('pages/images/p_weather.png')
     st.image(image)
-    st.markdown("##### 감자 가격은 자연재해를 제외하고 기온, 강수량에 영향을 크게 받지 않는다")
+    st.markdown("- 감자 가격은 자연재해를 제외하고 기온, 강수량에 영향을 크게 받지 않는다")
     st.markdown("")
     st.markdown("#### 5년 가격 변화추이")
     st.markdown("")
@@ -211,7 +211,7 @@ with tab4:
     st.markdown("#### Warning Count")
     image = Image.open('pages/images/k-warning.png')
     st.image(image)
-    st.markdown(" 해가 지날수록 Warning count e.g. 풍랑주의보, 폭우주의보 등")
+    st.markdown("- 해가 지날수록 Warning count가 발생하는 빈도가 증가한다. e.g. 풍랑주의보, 폭우주의보 등")
     st.markdown("")
     st.markdown("#### 일별 평균 상대습도")
     image = Image.open('pages/images/k-humid.png')
@@ -219,10 +219,13 @@ with tab4:
     st.markdown("")
     st.markdown("#### 일별 평균 풍속")
     image = Image.open('pages/images/k-windspeed.png')
-    st.markdown(" 바람에 영향을 받음")
     st.image(image)
-    
+    st.markdown(" 바람에 영향을 받음")
+    st.markdown('''
+    ### 📌 SUMMARY  
+     
 
+    ''')
 st.markdown("")
 st.markdown("---")
 st.markdown("")
