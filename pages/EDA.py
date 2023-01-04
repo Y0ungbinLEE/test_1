@@ -59,7 +59,8 @@ with tab1:
              
     plt.figure(figsize=(20, 7))
     st.markdown("")
-
+    st.markdown(""나 🧄 사랑한다 했잖아~🎵""")
+    st.markdown("")
     st.markdown("#### 💡 파종 및 수확시기")
     st.markdown("- 9 ~ 10월 파종, 5 ~ 6월 수확")
     st.markdown("")
@@ -84,7 +85,7 @@ with tab1:
     st.markdown("")
     st.markdown("""
     ### 📌 SUMMARY
-    #### ✅ 마늘의 가격 변동 요인
+    ##### ✅ 마늘의 가격 변동 요인
     1. 재배시기, 재배면적과 기온에 많은 영향을 받음 (마늘 생육 적온은 18~20℃, 25℃ 이상에서는 생육 정지)
     2. 코로나19로 인한 인력 수급 불균형
     """)
@@ -95,6 +96,8 @@ with tab1:
     st.markdown(""" 
     ➡️ 관련기사: 
     긴 장마와 강한 태풍, 혹한이 이어진 지난해 **기후 여파가 가격 상승의 1차 요인**으로 꼽힌다. 여기에 **코로나19로 인한 산지의 인력 수급 불균형이 가격 상승을 부추기는 구조적 요인**으로 지목된다. 
+    """)
+    st.markdown(""" 
     출처: [https://www.hankyung.com/economy/article/2021051867001](https://www.hankyung.com/economy/article/2021051867001)
     """)                
     st.markdown("")
@@ -103,7 +106,6 @@ with tab1:
     image = Image.open('pages/images/g-harvest.png')
     st.image(image)
 
-    
 
 
 with tab2:
@@ -135,6 +137,7 @@ with tab2:
     2. 한파로 인한 출하 지연
     ➡️ 관련기사: 
     봄 감자는 이례적인 폭등을 맞았다. 지난해 가을감자 생산이 감소하고 저장감자 물량이 부족했던데다 한파로 인해 시설봄감자 출하마저 지연된 탓이다. 
+        st.markdown(""" 
     출처: [http://www.ikpnews.net/news/articleView.html?idxno=34525](http://www.ikpnews.net/news/articleView.html?idxno=34525)
     """)   
     st.markdown("")
@@ -148,7 +151,7 @@ with tab2:
     
     st.markdown("""
     ### 📌 SUMMARY
-    #### ✅ 감자 가격 변동 요인
+    ##### ✅ 감자 가격 변동 요인
     1. 재배시기와 자연재해 (태풍, 한파) 많은 영향을 받음
     2. 2018년에 태풍 및 한파로 인한 가격 상승 
     """)
@@ -156,6 +159,8 @@ with tab2:
     st.markdown(""" 
     ➡️ 관련기사: 
     2018년에는 월별로 '이상기후'가 계속됐다는 분석 결과가 나왔다. 연초 겨울에는 맹추위가 찾아오고 여름에는 태풍 2개가 상륙했으며, 장마는 짧았던 반면 무더위는 길고 심했다.
+    """)
+    st.markdown("""     
     출처 : [http://www.greenpostkorea.co.kr/news/articleView.html?idxno=100176](http://www.greenpostkorea.co.kr/news/articleView.html?idxno=100176)
     """)  
     
@@ -190,11 +195,14 @@ with tab3:
     st.markdown("")
     st.markdown("""
     ### 📌 SUMMARY  
-    #### ✅ 고구마 가격 변동 요인
+    ##### ✅ 고구마 가격 변동 요인
     1. 겨울철 간식 수요 증가
     2. 태풍과 장마로 인한 생산량 감소
     ➡️ 관련기사:
     군고구마 등 고구마 간식 수요 증가는 물론 올여름 잦은 태풍과 긴 장마로 산지 수확에 어려움을 겪으면서 고구마 생산 물량이 줄어든 탓이다.
+    """)
+    
+    st.markdown("""  
     출처: [https://m.edaily.co.kr/news/Read?newsId=02686326625962768&mediaCodeNo=257&utm_source=https://www.google.com/](https://m.edaily.co.kr/news/Read?newsId=02686326625962768&mediaCodeNo=257&utm_source=https://www.google.com/)
     """)
 
@@ -239,12 +247,18 @@ with tab4:
     st.markdown("")
     st.markdown('''
     ### 📌 SUMMARY  
+    ##### ✅ 깻잎 가격 변동 요인
     1. 상추는 재배기간이 짧아 수급이 다른 농산물들에 비하여 원활히 이루어지는 편이지만 기후가 수급에 큰 영향을 끼친다고 볼 수 있다. 그로 인하여 가격 변동이 폭이 매우 짧은 편이다.
     2. 다른 기후들보다 일조량에 가장 많은 영향을 받는 잎채소이기에 구름이 많이 끼는 날, 폭우에 영향을 가장 많이 받는다.
     3. 일조량에 가장 많은 영향을 받는다고는 하나 수분을 유지할 수 없을 정도의 폭염에는 취약한 모습을 보인다.
+    
     ➡️ 관련기사:
     폭염으로 인해 삼겹살 가격과 맞먹는 상추와 깻잎
+    """)
+    st.markdown("""  
     출처: [https://www.hankyung.com/economy/article/201908094787Y)
+    """)
+    st.markdown("""  
     긴 장마와 흐린날로 수급이 불안해지는 잎채소
     출처: [https://www.yna.co.kr/view/AKR20200810076100530)
     ''')
