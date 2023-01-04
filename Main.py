@@ -35,8 +35,8 @@ st.markdown("""             """)
 st.markdown("### 📌 프로젝트 과정")
 st.markdown("""             """)
 st.markdown("""  
-            - ##### EDA 및 품목 선정
-            - ##### 예측 모델링
+            - ##### [EDA 및 품목 선정](https://y0ungbinlee-test-1-main-gfhk1e.streamlit.app/EDA)
+            - ##### [예측 모델링](https://y0ungbinlee-test-1-main-gfhk1e.streamlit.app/Modeling_by_Product)
 """)
 
 st.markdown("### 📌 프로젝트 결과")
