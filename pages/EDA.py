@@ -59,7 +59,7 @@ with tab1:
              
     plt.figure(figsize=(20, 7))
     st.markdown("")
-    st.markdown("""나 🧄 사랑한다 했잖아~🎵""")
+    st.markdown("""##### 나 🧄 사랑한다 했잖아~🎵""")
     st.markdown("")
     st.markdown("#### 💡 파종 및 수확시기")
     st.markdown("- 9 ~ 10월 파종, 5 ~ 6월 수확")
@@ -115,7 +115,7 @@ with tab2:
     data_1 = pd.DataFrame(df_p.groupby('Y')['Price'].sum())
     data_1m = pd.DataFrame(df_p.groupby('M')['Price'].sum())
 
-    st.markdown("""🥔 합니다""")
+    st.markdown("""##### 🥔 합니다 ❤️""")
     st.markdown("")
     st.markdown("#### 💡 파종 및 수확시기")
     st.markdown("- 봄감자:  2 ~ 4월 파종, 6 ~ 7월 수확")
@@ -175,7 +175,7 @@ with tab3:
     data_1 = pd.DataFrame(df_sp.groupby('Y')['Price'].sum())
     data_1m = pd.DataFrame(df_sp.groupby('M')['Price'].sum())
 
-    st.markdown(""" 겨울에는 역시 🍠구마 """)
+    st.markdown(""" ##### 겨울에는 역시 🍠구마 """)
     st.markdown("")
     st.markdown("#### 💡 파종 및 수확시기")
     st.markdown("- 5 ~ 6월 파종, 10월 수확")
@@ -219,9 +219,10 @@ with tab4:
     data_1 = pd.DataFrame(df_k.groupby('Y')['Price'].sum())
     data_1m = pd.DataFrame(df_k.groupby('M')['Price'].sum())
   
-    st.markdown(""" 🍃 떼주기 가능? 불가능? """)
+    st.markdown(""" ##### 🍃 떼주기 가능? 불가능? """)
     st.markdown("")
     st.markdown("#### 💡 파종 및 수확시기")
+    st.markdown(" 4 ~ 5월에 파종, 10월까지 필요할 때마다 수확")
     st.markdown("#### 계절별 가격 추세")
     gh2 = px.line(data_1m)
     st.plotly_chart(gh2)
@@ -261,12 +262,14 @@ with tab4:
     
     ➡️ 관련기사:
     폭염으로 인해 삼겹살 가격과 맞먹는 상추와 깻잎
-    """)
+    ''')
     st.markdown("""  
     출처: [https://www.hankyung.com/economy/article/201908094787Y)
     """)
     st.markdown("""  
     긴 장마와 흐린날로 수급이 불안해지는 잎채소
+    """)
+    st.markdown('''
     출처: [https://www.yna.co.kr/view/AKR20200810076100530)
     ''')
 st.markdown("")
