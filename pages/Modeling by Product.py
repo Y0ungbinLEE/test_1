@@ -76,16 +76,16 @@ elif choice == product[1]:
     st.markdown("### 📈 SARIMA X Model")
     
     st.markdown("##### 🖇 PPI CPI 제외하고 학습")
-    image = Image.open('pages/images/ model_image/pp-sarimax-woppicpi.png')
+    image = Image.open('pages/images/ model_image/pp-sarimax-wocpippi.png')
     st.image(image)
-    image = Image.open('pages/images/ model_image/pp-sarimax-woppicpi-result.png')
+    image = Image.open('pages/images/ model_image/pp-sarimax-wocpippi-result.png')
     st.image(image)
     st.markdown("")
     
     st.markdown("##### 🖇 PPI CPI로만 학습")
-    image = Image.open('pages/images/ model_image/pp-sarimax-wppicpi.png')
+    image = Image.open('pages/images/ model_image/pp-sarimax-wcpippi.png')
     st.image(image)
-    image = Image.open('pages/images/ model_image/pp-sarimax-wppicpi-result.png')
+    image = Image.open('pages/images/ model_image/pp-sarimax-wcpippi-result.png')
     st.image(image)
     st.markdown("")
     
