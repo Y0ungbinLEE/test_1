@@ -34,25 +34,23 @@ if choice == product[0]:
     st.image(image)
     st.markdown("")
     
-
-    
     st.markdown("### 📈 SARIMA X Model")
     
-    st.markdown("#### 📈 PPI CPI 제외하고 학습")
+    st.markdown("##### 🖇 PPI CPI 제외하고 학습")
     image = Image.open('pages/images/ model_image/g-sarimax-woppicpi.png')
     st.image(image)
     image = Image.open('pages/images/ model_image/g-arima-result.png')
     st.image(image)
     st.markdown("")
     
-    st.markdown("#### 📈 PPI CPI로만 학습")
+    st.markdown("##### 🖇 PPI CPI로만 학습")
     image = Image.open('pages/images/ model_image/g-sarimax-wppicpi.png')
     st.image(image)
     image = Image.open('pages/images/ model_image/g-sarimax-wppicpi-result.png')
     st.image(image)
     st.markdown("")
     
-    st.markdown("#### 📈 모든 Feature로 학습")
+    st.markdown("##### 🖇 모든 Feature로 학습")
     image = Image.open('pages/images/ model_image/g-sarimax-wallfeatures.png')
     st.image(image)
     image = Image.open('pages/images/ model_image/g-sarimax-wallfeatures-result.png')
@@ -77,28 +75,28 @@ elif choice == product[1]:
     
     st.markdown("### 📈 SARIMA X Model")
     
-    st.markdown("#### 📈 PPI CPI 제외하고 학습")
+    st.markdown("##### 🖇 PPI CPI 제외하고 학습")
     image = Image.open('pages/images/ model_image/p-sarix-wopplcpi.png')
     st.image(image)
     image = Image.open('pages/images/ model_image/p-sarix-wopplcpi-result.png')
     st.image(image)
     st.markdown("")
     
-    st.markdown("#### 📈 PPI CPI로만 학습")
+    st.markdown("##### 🖇 PPI CPI로만 학습")
     image = Image.open('pages/images/ model_image/p-sarix-wppicpi.png')
     st.image(image)
     image = Image.open('pages/images/ model_image/p-sarix-wppicpi-result.png')
     st.image(image)
     st.markdown("")
     
-    st.markdown("#### 📈 모든 Feature로 학습")
+    st.markdown("##### 🖇 모든 Feature로 학습")
     image = Image.open('pages/images/ model_image/p-sarix-wallfeatures.png')
     st.image(image)
     image = Image.open('pages/images/ model_image/p-sarix-wallfeatures-result.png')
     st.image(image)
     st.markdown("")
  
-    st.markdown("### 📈 Prophet Model")
+    st.markdown("##### 🖇 Prophet Model")
     image = Image.open('pages/images/ model_image/p-prophet-m.png')
     st.image(image)
 
@@ -136,9 +134,9 @@ elif choice == product[2]:
     st.markdown("")
     
     st.markdown("#### 📈 모든 Feature로 학습")
-    image = Image.open('pages/images/ model_image/sp-sarimax-woppicpi.png')
+    image = Image.open('pages/images/ model_image/sp-sarimax-wallfeatures.png')
     st.image(image)
-    image = Image.open('pages/images/ model_image/sp-arima-result.png')
+    image = Image.open('pages/images/ model_image/sp-sarimax-wallfeatures-result.png')
     st.image(image)
     st.markdown("")
  
@@ -161,16 +159,16 @@ elif choice == product[3]:
     st.markdown("### 📈 SARIMA X Model")
     
     st.markdown("#### 📈 PPI CPI 제외하고 학습")
-    image = Image.open('pages/images/ model_image/k-sarimax-woppicpi.png')
+    image = Image.open('pages/images/ model_image/k-sarimax-wocpippi.png')
     st.image(image)
-    image = Image.open('pages/images/ model_image/k-arima-result.png')
+    image = Image.open('pages/images/ model_image/k-sarimax-wocpippi-result.png')
     st.image(image)
     st.markdown("")
     
     st.markdown("#### 📈 CPI로만 학습 (PPI값이 존재하지 않음)")
-    image = Image.open('pages/images/ model_image/k-sarimax-wppicpi.png')
+    image = Image.open('pages/images/ model_image/k-sarimax-wcpi.png')
     st.image(image)
-    image = Image.open('pages/images/ model_image/k-sarimax-wppicpi-result.png')
+    image = Image.open('pages/images/ model_image/k-sarimax-wcpi-result.png')
     st.image(image)
     st.markdown("")
     
