@@ -28,11 +28,13 @@ if choice == product[0]:
     st.markdown("## 🧄 마늘")
     st.markdown("")
     st.markdown("### ARIMA Model")
-    image = Image.open('pages/images/model_image/g-arima.png')
+    image = Image.open('pages/images/ model_image/g-arima.png')
     st.image(image)
-    image = Image.open('pages/images/model_image/g-arima-result.png')
-    st.image(image)
-    st.markdown("")
+    # image = Image.open('pages/images/model_image/g-arima-result.png')
+    # st.image(image)
+    # st.markdown("")
+    
+
     
     # st.markdown("### SARIMA X Model")
     
