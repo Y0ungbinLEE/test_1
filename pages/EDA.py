@@ -38,7 +38,7 @@ df = load_data(url)
 
 # df = load_data(file)
 # df.columns = ["YMD","YM","MD","Product","Price","KRW_USD_EXR","Annual_Call_Rate","item_PPI","item_CPI","Food_Price_Index","Cereals_Price_Index","DayAvg_Temperature","DayDiff_Temperature","DayAvg_RelativeHumidity","DaySum_Rainfall","DayAvg_WindSpeed","DaySum_Sunshine","Warning_Count"]
-st.dataframe(df)
+
 
 st.header(" 🌾 Agricultural Products Price Prediction")
 
@@ -56,8 +56,7 @@ with tab1:
     data_1 = pd.DataFrame(df_g.groupby('Y')['Price'].sum())
     data_1m = pd.DataFrame(df_g.groupby('M')['Price'].sum())
     
-    st.dataframe(data_1m) 
-          
+             
     plt.figure(figsize=(20, 7))
     st.markdown("")
     st.subheader("💡 파종 및 수확시기")
