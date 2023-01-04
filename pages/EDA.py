@@ -19,12 +19,24 @@ st.set_page_config(
     layout="wide",
 )
 
-file = 'AgriMarket.csv'
+# file = 'AgriMarket.csv'
 
+# @st.cache
+# def load_data(file):
+#     data = pd.read_csv(file)
+#     return data
+
+#데이터 로드
+url = "https://raw.githubusercontent.com/Y0ungbinLEE/test_1/main/Agri_all.csv"
 @st.cache
-def load_data(file):
-    data = pd.read_csv(file)
-    return data
+def load_data(url):
+   df = pd.read_table(url, sep='\t')
+   return df
+
+data_load_state = st.text('Loading data...')
+df = load_data(url)
+data_load_state.text("Success! (using st.cache)")
+
 
 df = load_data(file)
 df.columns = ["YMD","YM","MD","Product","Price","Cereals","Food Price Index","item_CPI","item_PPI","콜금리(연%)","환율(원/US$"]
