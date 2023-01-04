@@ -67,7 +67,7 @@ elif choice == product[1]:
     st.markdown("## 🥔 감자")
     st.markdown("")
     st.markdown("### ARIMA Model")
-    image = Image.open('pages/images/modelimage/p-arima.png')
+    image = Image.open('pages/images/modelimage/p-ari.png')
     st.image(image)
     image = Image.open('pages/images/modelimage/p-arima-result.png')
     st.image(image)
