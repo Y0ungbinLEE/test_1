@@ -33,9 +33,7 @@ def load_data(url):
    df = pd.read_table(url, sep='\t')
    return df
 
-data_load_state = st.text('Loading data...')
 df = load_data(url)
-data_load_state.text("Success! (using st.cache)")
 
 
 # df = load_data(file)
