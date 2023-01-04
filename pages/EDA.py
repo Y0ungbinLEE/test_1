@@ -59,7 +59,7 @@ with tab1:
              
     plt.figure(figsize=(20, 7))
     st.markdown("")
-    st.markdown(""나 🧄 사랑한다 했잖아~🎵""")
+    st.markdown("""나 🧄 사랑한다 했잖아~🎵""")
     st.markdown("")
     st.markdown("#### 💡 파종 및 수확시기")
     st.markdown("- 9 ~ 10월 파종, 5 ~ 6월 수확")
@@ -115,6 +115,8 @@ with tab2:
     data_1 = pd.DataFrame(df_p.groupby('Y')['Price'].sum())
     data_1m = pd.DataFrame(df_p.groupby('M')['Price'].sum())
 
+    st.markdown("""🥔 합니다""")
+    st.markdown("")
     st.markdown("#### 💡 파종 및 수확시기")
     st.markdown("- 봄감자:  2 ~ 4월 파종, 6 ~ 7월 수확")
     st.markdown("- 가을감자: 8월 파종,  11월 수확")
@@ -132,12 +134,13 @@ with tab2:
     st.markdown("- 감자 가격은 자연재해를 제외하고 기온, 강수량에 영향을 크게 받지 않는다")
     st.markdown("")
     st.markdown("##### 🤔 2018년에 가격이 급등한 이유?")
-    st.markdown("""
+    st.markdown(""" 
     1. 2017년 감자 재배면적 감소로 인해 생산량도 감소함에 따라 저장 물량 부족 (수요 > 공급)
     2. 한파로 인한 출하 지연
     ➡️ 관련기사: 
     봄 감자는 이례적인 폭등을 맞았다. 지난해 가을감자 생산이 감소하고 저장감자 물량이 부족했던데다 한파로 인해 시설봄감자 출하마저 지연된 탓이다. 
-        st.markdown(""" 
+    """)
+    st.markdown(""" 
     출처: [http://www.ikpnews.net/news/articleView.html?idxno=34525](http://www.ikpnews.net/news/articleView.html?idxno=34525)
     """)   
     st.markdown("")
@@ -172,6 +175,8 @@ with tab3:
     data_1 = pd.DataFrame(df_sp.groupby('Y')['Price'].sum())
     data_1m = pd.DataFrame(df_sp.groupby('M')['Price'].sum())
 
+    st.markdown(""" 겨울에는 역시 🍠구마 """)
+    st.markdown("")
     st.markdown("#### 💡 파종 및 수확시기")
     st.markdown("- 5 ~ 6월 파종, 10월 수확")
     st.markdown("#### 계절별 가격 추세")
@@ -214,6 +219,8 @@ with tab4:
     data_1 = pd.DataFrame(df_k.groupby('Y')['Price'].sum())
     data_1m = pd.DataFrame(df_k.groupby('M')['Price'].sum())
   
+    st.markdown(""" 🍃 떼주기 가능? 불가능? """)
+    st.markdown("")
     st.markdown("#### 💡 파종 및 수확시기")
     st.markdown("#### 계절별 가격 추세")
     gh2 = px.line(data_1m)
