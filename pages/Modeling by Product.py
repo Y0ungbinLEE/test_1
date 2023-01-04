@@ -36,32 +36,32 @@ if choice == product[0]:
     
 
     
-    # st.markdown("### SARIMA X Model")
+    st.markdown("### SARIMA X Model")
     
-    # st.markdown("#### PPI CPI 제외하고 학습")
-    # image = Image.open('pages/images/ model_image/g-sarimax-woppicpi.png')
-    # st.image(image)
-    # image = Image.open('pages/images/ model_image/g-arima-result.png')
-    # st.image(image)
-    # st.markdown("")
+    st.markdown("#### PPI CPI 제외하고 학습")
+    image = Image.open('pages/images/ model_image/g-sarimax-woppicpi.png')
+    st.image(image)
+    image = Image.open('pages/images/ model_image/g-arima-result.png')
+    st.image(image)
+    st.markdown("")
     
-    # st.markdown("#### PPI CPI로만 학습")
-    # image = Image.open('pages/images/ model_image/g-sarimax-wppicpi.png')
-    # st.image(image)
-    # image = Image.open('pages/images/ model_image/g-sarimax-wppicpi-result.png')
-    # st.image(image)
-    # st.markdown("")
+    st.markdown("#### PPI CPI로만 학습")
+    image = Image.open('pages/images/ model_image/g-sarimax-wppicpi.png')
+    st.image(image)
+    image = Image.open('pages/images/ model_image/g-sarimax-wppicpi-result.png')
+    st.image(image)
+    st.markdown("")
     
-    # st.markdown("#### 모든 Feature로 학습")
-    # image = Image.open('pages/images/ model_image/g-sarimax-wallfeatures.png')
-    # st.image(image)
-    # image = Image.open('pages/images/ model_image/g-sarimax-wallfeatures-result.png')
-    # st.image(image)
-    # st.markdown("")
+    st.markdown("#### 모든 Feature로 학습")
+    image = Image.open('pages/images/ model_image/g-sarimax-wallfeatures.png')
+    st.image(image)
+    image = Image.open('pages/images/ model_image/g-sarimax-wallfeatures-result.png')
+    st.image(image)
+    st.markdown("")
  
-    # st.markdown("### Prophet Model")
-    # image = Image.open('pages/images/ model_image/g-prophet-m.png')
-    # st.image(image)
+    st.markdown("### Prophet Model")
+    image = Image.open('pages/images/ model_image/g-prophet-m.png')
+    st.image(image)
 
 
 
