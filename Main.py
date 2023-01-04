@@ -8,8 +8,8 @@ st.set_page_config(
     layout="wide",
 )
 st.markdown("""**Likelion AI SCHOOL7 Final Project**""")
-st.title("👑 Queen치현자벳 7세")
-st.markdown("""**Team members** 송치현, 성동엽, 박성용, 박혜정, 우신, 이영빈""")
+st.title("👑 Queen 치현자벳 7세")
+st.markdown("""**Team members**  송치현, 성동엽, 박성용, 박혜정, 우신, 이영빈""")
 st.markdown("---")
 
 st.header(" 🌾 Agricultural Products Price Prediction")

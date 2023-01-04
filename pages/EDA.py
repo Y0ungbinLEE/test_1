@@ -58,7 +58,6 @@ with tab1:
     
              
     plt.figure(figsize=(20, 7))
-    st.markdown("")
     st.markdown("""##### 나 🧄 사랑한다 했잖아~🎵""")
     st.markdown("")
     st.markdown("#### 💡 파종 및 수확시기")
@@ -269,7 +268,7 @@ with tab4:
     st.markdown("""  
     긴 장마와 흐린날로 수급이 불안해지는 잎채소
     """)
-    st.markdown('''
+    st.markdown(''' 
     출처: [https://www.yna.co.kr/view/AKR20200810076100530)
     ''')
 st.markdown("")
