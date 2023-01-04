@@ -38,7 +38,7 @@ df = load_data(url)
 data_load_state.text("Success! (using st.cache)")
 
 
-df = load_data(file)
+# df = load_data(file)
 df.columns = ["YMD","YM","MD","Product","Price","Cereals","Food Price Index","item_CPI","item_PPI","콜금리(연%)","환율(원/US$"]
 
 st.header(" 🌾 Agricultural Products Price Prediction")
