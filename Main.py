@@ -35,20 +35,20 @@ st.markdown("""             """)
 st.markdown("### 📌 프로젝트 과정")
 st.markdown("""             """)
 st.markdown("""  
-            - ##### [EDA 및 품목 선정](https://y0ungbinlee-test-1-main-gfhk1e.streamlit.app/EDA)
-            - ##### [예측 모델링](https://y0ungbinlee-test-1-main-gfhk1e.streamlit.app/Modeling_by_Product)
+            - ##### [EDA 및 인사이트](https://y0ungbinlee-test-1-main-gfhk1e.streamlit.app/EDA)
+            - ##### [품목별 모델링](https://y0ungbinlee-test-1-main-gfhk1e.streamlit.app/Modeling_by_Product)
 """)
 
-st.markdown("### 📌 프로젝트 결과")
+# st.markdown("### 📌 프로젝트 결과")
 
 
-st.sidebar.header('Agricultural Products Price Prediction')
-st.sidebar.markdown("""
-    ### 
+# st.sidebar.header('Agricultural Products Price Prediction')
+# st.sidebar.markdown("""
+#     ### 
 
-    ### ☘ 홈페이지
-    github : [Git](https://github.com/Sankamita3131/Agricultural-Products-Price-Prediction-)
-""")
+#     ### ☘ 홈페이지
+#     github : [Git](https://github.com/Sankamita3131/Agricultural-Products-Price-Prediction-)
+# """)
 
 
 st.markdown("")
