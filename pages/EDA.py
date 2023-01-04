@@ -30,7 +30,7 @@ st.set_page_config(
 url = "https://raw.githubusercontent.com/Y0ungbinLEE/test_1/main/Agri_all.csv"
 @st.cache
 def load_data(url):
-   df = pd.read_table(url, sep='\t')
+   df = pd.read_csv(url)
    return df
 
 df = load_data(url)
