@@ -37,7 +37,8 @@ df = load_data(url)
 
 
 # df = load_data(file)
-df.columns = ["YMD","YM","MD","Product","Price","KRW_USD_EXR","Annual_Call_Rate","item_PPI","item_CPI","Food_Price_Index","Cereals_Price_Index","DayAvg_Temperature","DayDiff_Temperature","DayAvg_RelativeHumidity","DaySum_Rainfall","DayAvg_WindSpeed","DaySum_Sunshine","Warning_Count"]
+# df.columns = ["YMD","YM","MD","Product","Price","KRW_USD_EXR","Annual_Call_Rate","item_PPI","item_CPI","Food_Price_Index","Cereals_Price_Index","DayAvg_Temperature","DayDiff_Temperature","DayAvg_RelativeHumidity","DaySum_Rainfall","DayAvg_WindSpeed","DaySum_Sunshine","Warning_Count"]
+st.dataframe(df)
 
 st.header(" 🌾 Agricultural Products Price Prediction")
 
